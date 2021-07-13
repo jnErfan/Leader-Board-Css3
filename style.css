@@ -1,6 +1,7 @@
 body{
     background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 header{
     width: 1440px;
@@ -132,6 +133,8 @@ main{
     
 }
 /* Blogs Style End --------------------- */
+
+/* Course Start---------------------------  */
 .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -176,3 +179,62 @@ main{
     margin-left: 15px;
    
 }
+/* course end ------------- */
+
+
+/* Medea Quare Start ------------ */
+@media only screen and (max-width:688px)  {
+    .Container{
+        width: 100%;
+        
+    }
+    .players{
+         grid-template-columns: repeat(2, 1fr);
+         
+    }
+    .player{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-logo{
+        margin-left: -270px;
+    }
+   
+    .header-button {
+        margin-left: -510px;
+    }
+    .header-button a{
+        font-size: 15px;
+        padding-right: 10px;
+
+    }
+    .profile{
+        font-size: 30px;
+        margin-top: 30px;}
+
+    .blogs{
+         grid-template-columns: repeat(1, 1fr);
+         
+    }
+    .blog{
+        
+        align-items: center;
+    }
+    .courses{
+         grid-template-columns: repeat(1, 1fr);
+         
+    }
+    .course{
+        
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    
+        
+
+
+}
+
+/* Medea Quare End ------------------ */
